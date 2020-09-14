@@ -1,0 +1,131 @@
+body{
+    margin:0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514e;
+}
+h1{
+    margin: 100px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.25rem;
+    color: #fe7171;
+}
+h2{
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 2.5rem;
+    color: #fe7171;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 20px;
+    color: #ff7171;
+}
+h4{
+    color: #fe7171;
+    font-weight: normal;
+}
+.top-container{
+    background-color: #fae3d9;
+    position: relative;
+    padding-top: 100px ;
+}
+.top-cloud{
+    position: absolute;
+    right: 200px;
+    top: 150px;
+}
+.bottom-cloud{
+    position: absolute;
+    left:200px;
+    bottom:250px
+}
+.my-profile{
+    border-radius: 50em;
+    width: 200px;
+}
+.mountain{
+    border: 0;
+    vertical-align: middle;
+}
+a{
+    color: #ff7171;
+    font-family: 'Merriweather', serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color :#ffffdd;
+}
+.skills-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+p{
+    line-height: 2;
+}
+.web-image{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.code-image{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto 100px auto;
+}
+.contact-me{
+    margin: 50px auto 5px auto;
+    width: 40%;
+}
+.bottom-container{
+    background-color: #fae3d9;
+    padding: 40px 0 20px;
+}
+.middle-container{
+    margin: 100px 0 100px 0;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #f5e8e7;
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	background-color:#fc8d83;
+	border-radius:25px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Merriweather', serif;
+	font-size:17px;
+	font-weight:bold;
+	padding:13px 7px;
+	text-decoration:none;
+    text-shadow:0px -1px 0px #b23e35;
+    margin-top: 25px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+	background-color:#e4685d;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.copyright{
+    color: #ffffdd;
+    font-size: 0.75rem;
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+
